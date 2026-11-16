@@ -1,0 +1,4 @@
+# The monitor runs on the standard library alone on Linux.
+# psutil gives CPU and memory metrics on Windows and macOS, more accurate
+# metrics everywhere, and lets the response module verify processes on Windows.
+psutil>=5.9
